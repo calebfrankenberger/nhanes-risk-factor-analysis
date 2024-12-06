@@ -41,3 +41,5 @@ proc surveylogistic data=cln_dta.clean_data;
     model Diabetes_Status(event='1') = Age BMI Hypertension;
     output out=diag predicted=pred;
 run;
+
+/* -- END OF FILE -- */
